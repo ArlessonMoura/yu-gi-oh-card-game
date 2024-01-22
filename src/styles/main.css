@@ -28,6 +28,17 @@ a:hover {
   align-items: center;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li::before {
+  content: '\2625';
+  margin-right: 0.5px;
+  font-size: 2em;
+}
+
 .bg-video {
   position: absolute;
   z-index: -2;
